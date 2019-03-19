@@ -1,25 +1,3 @@
-/************************************************************
-ESP8266_Shield_Demo.h
-SparkFun ESP8266 AT library - Demo
-Jim Lindblom @ SparkFun Electronics
-Original Creation Date: July 16, 2015
-https://github.com/sparkfun/SparkFun_ESP8266_AT_Arduino_Library
-
-This example demonstrates the basics of the SparkFun ESP8266
-AT library. It'll show you how to connect to a WiFi network,
-get an IP address, connect over TCP to a server (as a client),
-and set up a TCP server of our own.
-
-Development environment specifics:
-  IDE: Arduino 1.6.5
-  Hardware Platform: Arduino Uno
-  ESP8266 WiFi Shield Version: 1.0
-
-This code is released under the MIT license.
-
-Distributed as-is; no warranty is given.
-************************************************************/
-
 //////////////////////
 // Library Includes //
 //////////////////////
@@ -33,11 +11,8 @@ Distributed as-is; no warranty is given.
 //////////////////////////////
 // Replace these two character strings with the name and
 // password of your WiFi network.
-const char mySSID[] = "IOT";
-const char myPSK[] = "Rabindranath@Tagore123";
-//const char mySSID[] = "coees02";
-//const char myPSK[] = "coeesiot02";
-
+const char mySSID[] = "xxxxxxx";
+const char myPSK[] = "xxxxxxxxxxxxxxxxxxx";
 
 //////////////////////////////
 // ESP8266Server definition //
