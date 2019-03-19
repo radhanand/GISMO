@@ -1,0 +1,12 @@
+
+# Blink the LED on the Arduino Nano on the GISMO board
+setup()
+{
+pinMode(13,OUTPUT);
+}
+loop()
+{
+digitalWrite(13,HIGH);
+delay(1000);
+digitalWrite(13,LOW);
+}
